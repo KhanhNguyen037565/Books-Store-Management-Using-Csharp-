@@ -1,25 +1,85 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32407.343
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai5", "Bai5\Bai5.csproj", "{ACC41D3B-3F6F-41B4-A3B1-ADFF28E9C092}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACC41D3B-3F6F-41B4-A3B1-ADFF28E9C092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACC41D3B-3F6F-41B4-A3B1-ADFF28E9C092}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACC41D3B-3F6F-41B4-A3B1-ADFF28E9C092}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACC41D3B-3F6F-41B4-A3B1-ADFF28E9C092}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8926095F-7027-4B62-A150-A34F79A36F8A}
-	EndGlobalSection
-EndGlobal
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bai5
+{
+    internal class MayTinh
+    {
+        double X;
+        double Y;
+        public MayTinh(double x, double y)
+        {
+            X = x;
+            Y = y;
+        }
+        static public void Nhap()
+        {
+            double X, Y;
+            Console.WriteLine("Nhap x: ");
+            X = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Nhap y: ");
+            Y = Convert.ToDouble(Console.ReadLine());
+        }
+        public double Tong()
+        {
+            return X + Y;
+        }
+        public double Hieu()
+        {
+            return X - Y;
+        }
+        public double Tich()
+        {
+            return X * Y;
+        }
+        public double Thuong()
+        {
+            return X / Y;
+        }
+        public double ChiaLayDu()
+        {
+            return X % Y;
+        }
+        static void Main(string[] args)
+        {
+            double x, y;
+            MayTinh mt= new MayTinh(2,3);
+            Nhap();
+            Console.WriteLine("\n");
+            Console.WriteLine("\t\t\t\t_____________________________________________");
+            Console.WriteLine("\t\t\t\t________                             ________");
+            Console.WriteLine("\t\t\t\t_                    0 - Cong                ");
+            Console.WriteLine("\t\t\t\t_                     1 - Tru                ");
+            Console.WriteLine("\t\t\t\t_                    2 - Nhan                ");
+            Console.WriteLine("\t\t\t\t_                    3 - Chia                ");
+            Console.WriteLine("\t\t\t\t_                 4 - Chia lay du            ");
+            Console.WriteLine("\t\t\t\t_____                                   _____");
+            Console.WriteLine("\t\t\t\t_____________________________________________");
+            int n;
+            Console.Write("\n\t\tNhap lua chon: ");
+            n = Convert.ToInt32(Console.ReadLine());
+            switch (n)
+            {
+                case 0:
+                    Nhap();
+                    Tong();
+                    Console.Beep();
+                    Console.ReadKey();
+                    break;
+                case 1:
+
+                    Console.Beep();
+                    Console.ReadKey();
+                    break;
+                case 2:
+
+                    Console.Beep();
+                    Console.ReadKey();
+                    break;
+            }
+        }
+    }
+}
