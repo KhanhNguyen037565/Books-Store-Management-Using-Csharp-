@@ -1,0 +1,8 @@
+D:\LapTrinhTrucQuan\Bai3\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache
+D:\LapTrinhTrucQuan\Bai3\Bai3\obj\Debug\Bai3.csproj.SuggestedBindingRedirects.cache
+D:\LapTrinhTrucQuan\Bai3\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
+D:\LapTrinhTrucQuan\Bai3\Bai3\bin\Debug\Bai3.exe.config
+D:\LapTrinhTrucQuan\Bai3\Bai3\bin\Debug\Bai3.exe
+D:\LapTrinhTrucQuan\Bai3\Bai3\bin\Debug\Bai3.pdb
+D:\LapTrinhTrucQuan\Bai3\Bai3\obj\Debug\Bai3.exe
+D:\LapTrinhTrucQuan\Bai3\Bai3\obj\Debug\Bai3.pdb

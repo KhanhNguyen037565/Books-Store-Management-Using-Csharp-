@@ -1,0 +1,8 @@
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\bin\Debug\demotrang16.exe.config
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\bin\Debug\demotrang16.exe
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\bin\Debug\demotrang16.pdb
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\obj\Debug\demotrang16.csproj.AssemblyReference.cache
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\obj\Debug\demotrang16.csproj.SuggestedBindingRedirects.cache
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\obj\Debug\demotrang16.csproj.CoreCompileInputs.cache
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\obj\Debug\demotrang16.exe
+D:\LapTrinhTrucQuan\demotrang16\demotrang16\obj\Debug\demotrang16.pdb

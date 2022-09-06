@@ -1,0 +1,8 @@
+D:\LapTrinhTrucQuan\demo2\demo2\bin\Debug\demo2.exe.config
+D:\LapTrinhTrucQuan\demo2\demo2\bin\Debug\demo2.exe
+D:\LapTrinhTrucQuan\demo2\demo2\bin\Debug\demo2.pdb
+D:\LapTrinhTrucQuan\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+D:\LapTrinhTrucQuan\demo2\demo2\obj\Debug\demo2.csproj.SuggestedBindingRedirects.cache
+D:\LapTrinhTrucQuan\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+D:\LapTrinhTrucQuan\demo2\demo2\obj\Debug\demo2.exe
+D:\LapTrinhTrucQuan\demo2\demo2\obj\Debug\demo2.pdb
