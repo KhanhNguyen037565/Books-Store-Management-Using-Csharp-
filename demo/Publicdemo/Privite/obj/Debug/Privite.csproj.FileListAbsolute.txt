@@ -1,0 +1,7 @@
+D:\Pratices_Csharp\demo\Privite\Privite\bin\Debug\Privite.exe.config
+D:\Pratices_Csharp\demo\Privite\Privite\bin\Debug\Privite.exe
+D:\Pratices_Csharp\demo\Privite\Privite\bin\Debug\Privite.pdb
+D:\Pratices_Csharp\demo\Privite\Privite\obj\Debug\Privite.csproj.AssemblyReference.cache
+D:\Pratices_Csharp\demo\Privite\Privite\obj\Debug\Privite.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Privite\Privite\obj\Debug\Privite.exe
+D:\Pratices_Csharp\demo\Privite\Privite\obj\Debug\Privite.pdb

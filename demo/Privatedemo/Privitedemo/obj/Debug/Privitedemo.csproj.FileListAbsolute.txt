@@ -1,0 +1,6 @@
+D:\Pratices_Csharp\demo\Privitedemo\Privitedemo\bin\Debug\Privitedemo.exe.config
+D:\Pratices_Csharp\demo\Privitedemo\Privitedemo\bin\Debug\Privitedemo.exe
+D:\Pratices_Csharp\demo\Privitedemo\Privitedemo\bin\Debug\Privitedemo.pdb
+D:\Pratices_Csharp\demo\Privitedemo\Privitedemo\obj\Debug\Privitedemo.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Privitedemo\Privitedemo\obj\Debug\Privitedemo.exe
+D:\Pratices_Csharp\demo\Privitedemo\Privitedemo\obj\Debug\Privitedemo.pdb
