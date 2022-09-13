@@ -1,0 +1,6 @@
+D:\Pratices_Csharp\demo\layChuoiConTrongCsharp\layChuoiConTrongCsharp\bin\Debug\layChuoiConTrongCsharp.exe.config
+D:\Pratices_Csharp\demo\layChuoiConTrongCsharp\layChuoiConTrongCsharp\bin\Debug\layChuoiConTrongCsharp.exe
+D:\Pratices_Csharp\demo\layChuoiConTrongCsharp\layChuoiConTrongCsharp\bin\Debug\layChuoiConTrongCsharp.pdb
+D:\Pratices_Csharp\demo\layChuoiConTrongCsharp\layChuoiConTrongCsharp\obj\Debug\layChuoiConTrongCsharp.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\layChuoiConTrongCsharp\layChuoiConTrongCsharp\obj\Debug\layChuoiConTrongCsharp.exe
+D:\Pratices_Csharp\demo\layChuoiConTrongCsharp\layChuoiConTrongCsharp\obj\Debug\layChuoiConTrongCsharp.pdb

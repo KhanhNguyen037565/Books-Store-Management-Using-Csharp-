@@ -1,0 +1,6 @@
+D:\Pratices_Csharp\demo\kiemTraChuoiCon\kiemTraChuoiCon\bin\Debug\kiemTraChuoiCon.exe.config
+D:\Pratices_Csharp\demo\kiemTraChuoiCon\kiemTraChuoiCon\bin\Debug\kiemTraChuoiCon.exe
+D:\Pratices_Csharp\demo\kiemTraChuoiCon\kiemTraChuoiCon\bin\Debug\kiemTraChuoiCon.pdb
+D:\Pratices_Csharp\demo\kiemTraChuoiCon\kiemTraChuoiCon\obj\Debug\kiemTraChuoiCon.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\kiemTraChuoiCon\kiemTraChuoiCon\obj\Debug\kiemTraChuoiCon.exe
+D:\Pratices_Csharp\demo\kiemTraChuoiCon\kiemTraChuoiCon\obj\Debug\kiemTraChuoiCon.pdb
