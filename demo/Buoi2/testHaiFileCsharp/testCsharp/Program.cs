@@ -16,22 +16,22 @@ namespace testCsharp
 
             Box box1 = new Box();
             Box box2 = new Box();
-            double the_tich = 0.0;
+            double the_tich;
             // thong tin cua Box 1
-            box1.chieu_cao = 5.0;
-            box1.chieu_dai = 6.0;
-            box1.chieu_rong = 7.0;
+            box1.setChieuDai(6.0);
+            box1.setChieuCao(5.0);
+            box1.setChieuRong(9.0);
 
             // thong tin cua Box2
-            box2.chieu_cao = 10.0;
-            box2.chieu_dai = 16.0;
-            box2.chieu_rong = 17.0;
+            box2.setChieuDai(16.0);
+            box2.setChieuCao(15.0);
+            box2.setChieuRong(19.0);
 
             // tinh va in the tich cua box 1
-            the_tich = box1.chieu_cao * box1.chieu_dai * box1.chieu_rong;
+            the_tich = box1.tinhTheTich();
             Console.WriteLine("The tich cua box 1 la: {0}", the_tich);
             // tinh va in the tich cua box 2
-            the_tich = box2.chieu_cao * box2.chieu_dai * box2.chieu_rong;
+            the_tich = box2.tinhTheTich();
             Console.WriteLine("The tich cua box 2 la: {0}", the_tich);
             Console.ReadKey();
 

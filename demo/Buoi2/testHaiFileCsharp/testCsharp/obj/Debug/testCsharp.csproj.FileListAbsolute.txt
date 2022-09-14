@@ -5,3 +5,10 @@ D:\Pratices_Csharp\demo\Buoi2\testCsharp\testCsharp\obj\Debug\testCsharp.csproj.
 D:\Pratices_Csharp\demo\Buoi2\testCsharp\testCsharp\obj\Debug\testCsharp.csproj.CoreCompileInputs.cache
 D:\Pratices_Csharp\demo\Buoi2\testCsharp\testCsharp\obj\Debug\testCsharp.exe
 D:\Pratices_Csharp\demo\Buoi2\testCsharp\testCsharp\obj\Debug\testCsharp.pdb
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\bin\Debug\testCsharp.exe.config
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\bin\Debug\testCsharp.exe
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\bin\Debug\testCsharp.pdb
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\obj\Debug\testCsharp.csproj.AssemblyReference.cache
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\obj\Debug\testCsharp.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\obj\Debug\testCsharp.exe
+D:\Pratices_Csharp\demo\Buoi2\testHaiFileCsharp\testCsharp\obj\Debug\testCsharp.pdb
