@@ -1,0 +1,6 @@
+D:\Pratices_Csharp\demo\Buoi2\staticTrongCsharp\staticTrongCsharp\bin\Debug\staticTrongCsharp.exe.config
+D:\Pratices_Csharp\demo\Buoi2\staticTrongCsharp\staticTrongCsharp\bin\Debug\staticTrongCsharp.exe
+D:\Pratices_Csharp\demo\Buoi2\staticTrongCsharp\staticTrongCsharp\bin\Debug\staticTrongCsharp.pdb
+D:\Pratices_Csharp\demo\Buoi2\staticTrongCsharp\staticTrongCsharp\obj\Debug\staticTrongCsharp.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi2\staticTrongCsharp\staticTrongCsharp\obj\Debug\staticTrongCsharp.exe
+D:\Pratices_Csharp\demo\Buoi2\staticTrongCsharp\staticTrongCsharp\obj\Debug\staticTrongCsharp.pdb
