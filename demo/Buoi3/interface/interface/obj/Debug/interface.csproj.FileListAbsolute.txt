@@ -1,0 +1,7 @@
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\bin\Debug\@interface.exe.config
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\bin\Debug\@interface.exe
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\bin\Debug\@interface.pdb
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\obj\Debug\interface.csproj.AssemblyReference.cache
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\obj\Debug\interface.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\obj\Debug\@interface.exe
+D:\Pratices_Csharp\demo\Buoi3\interface\interface\obj\Debug\@interface.pdb

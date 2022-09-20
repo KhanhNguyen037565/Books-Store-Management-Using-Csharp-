@@ -1,0 +1,6 @@
+D:\Pratices_Csharp\demo\Buoi3\demoTinhKeThua2\demoTinhKeThua2\bin\Debug\demoTinhKeThua2.exe.config
+D:\Pratices_Csharp\demo\Buoi3\demoTinhKeThua2\demoTinhKeThua2\bin\Debug\demoTinhKeThua2.exe
+D:\Pratices_Csharp\demo\Buoi3\demoTinhKeThua2\demoTinhKeThua2\bin\Debug\demoTinhKeThua2.pdb
+D:\Pratices_Csharp\demo\Buoi3\demoTinhKeThua2\demoTinhKeThua2\obj\Debug\demoTinhKeThua2.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi3\demoTinhKeThua2\demoTinhKeThua2\obj\Debug\demoTinhKeThua2.exe
+D:\Pratices_Csharp\demo\Buoi3\demoTinhKeThua2\demoTinhKeThua2\obj\Debug\demoTinhKeThua2.pdb

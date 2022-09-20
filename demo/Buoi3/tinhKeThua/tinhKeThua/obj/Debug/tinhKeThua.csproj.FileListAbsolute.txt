@@ -1,0 +1,7 @@
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\obj\Debug\tinhKeThua.csproj.AssemblyReference.cache
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\obj\Debug\tinhKeThua.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\bin\Debug\tinhKeThua.exe.config
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\bin\Debug\tinhKeThua.exe
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\bin\Debug\tinhKeThua.pdb
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\obj\Debug\tinhKeThua.exe
+D:\Pratices_Csharp\demo\Buoi3\tinhKeThua\tinhKeThua\obj\Debug\tinhKeThua.pdb
