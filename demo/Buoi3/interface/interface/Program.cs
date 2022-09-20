@@ -37,6 +37,9 @@ namespace @interface
         {
             public static void Main(string[] args)
             {
+                Console.WriteLine("Ke thua trong C#:");
+                Console.WriteLine("Vi du minh hoa da ke thua");
+                Console.WriteLine("____________________");
                 HinhChuNhat hcn = new HinhChuNhat();
                 int dienTich;
                 hcn.setChieuRong(5);
