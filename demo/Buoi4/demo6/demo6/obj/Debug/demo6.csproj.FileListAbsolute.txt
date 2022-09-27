@@ -1,0 +1,9 @@
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\bin\Debug\demo6.exe.config
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\bin\Debug\demo6.exe
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\bin\Debug\demo6.pdb
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\obj\Debug\demo6.Form1.resources
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\obj\Debug\demo6.Properties.Resources.resources
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\obj\Debug\demo6.csproj.GenerateResource.cache
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\obj\Debug\demo6.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\obj\Debug\demo6.exe
+D:\Pratices_Csharp\demo\Buoi4\demo6\demo6\obj\Debug\demo6.pdb

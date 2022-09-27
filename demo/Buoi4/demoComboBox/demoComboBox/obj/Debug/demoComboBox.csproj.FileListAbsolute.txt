@@ -1,0 +1,11 @@
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\bin\Debug\demoComboBox.exe.config
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\bin\Debug\demoComboBox.exe
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\bin\Debug\demoComboBox.pdb
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.csproj.AssemblyReference.cache
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.Form1.resources
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.Properties.Resources.resources
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.csproj.GenerateResource.cache
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.exe
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.pdb
+D:\Pratices_Csharp\demo\Buoi4\demoComboBox\demoComboBox\obj\Debug\demoComboBox.Form2.resources
