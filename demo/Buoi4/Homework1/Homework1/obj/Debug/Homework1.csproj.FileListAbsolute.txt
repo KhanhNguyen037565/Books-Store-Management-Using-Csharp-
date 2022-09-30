@@ -1,0 +1,9 @@
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\bin\Debug\Homework1.exe.config
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\bin\Debug\Homework1.exe
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\bin\Debug\Homework1.pdb
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\obj\Debug\Homework1.Form1.resources
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\obj\Debug\Homework1.Properties.Resources.resources
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\obj\Debug\Homework1.csproj.GenerateResource.cache
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\obj\Debug\Homework1.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\obj\Debug\Homework1.exe
+D:\Pratices_Csharp\demo\Buoi4\Homework1\Homework1\obj\Debug\Homework1.pdb
