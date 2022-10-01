@@ -29,6 +29,7 @@ namespace report_statistics_of_staff
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.btnReportStatistics = new System.Windows.Forms.Panel();
@@ -44,8 +45,11 @@ namespace report_statistics_of_staff
             this.panelPlayer = new System.Windows.Forms.Panel();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.iconButton = new FontAwesome.Sharp.IconButton();
             this.panelSideMenu.SuspendLayout();
             this.btnReportStatistics.SuspendLayout();
+            this.panelLogo.SuspendLayout();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -224,6 +228,7 @@ namespace report_statistics_of_staff
             // 
             // panelLogo
             // 
+            this.panelLogo.Controls.Add(this.iconButton);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -260,6 +265,30 @@ namespace report_statistics_of_staff
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
+            // iconButton
+            // 
+            this.iconButton.FlatAppearance.BorderSize = 0;
+            this.iconButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton.IconChar = FontAwesome.Sharp.IconChar.Stopwatch;
+            this.iconButton.IconColor = System.Drawing.Color.White;
+            this.iconButton.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton.Location = new System.Drawing.Point(12, 23);
+            this.iconButton.Name = "iconButton";
+            this.iconButton.Size = new System.Drawing.Size(209, 61);
+            this.iconButton.TabIndex = 1;
+            this.iconButton.Text = "WatchStore";
+            this.iconButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton.UseVisualStyleBackColor = true;
+            
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -273,6 +302,7 @@ namespace report_statistics_of_staff
             this.Text = "Form1";
             this.panelSideMenu.ResumeLayout(false);
             this.btnReportStatistics.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
             this.panelChildForm.ResumeLayout(false);
             this.panelChildForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -281,6 +311,7 @@ namespace report_statistics_of_staff
         }
 
         #endregion
+       
 
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Panel btnReportStatistics;
@@ -296,6 +327,8 @@ namespace report_statistics_of_staff
         private System.Windows.Forms.Panel panelPlayer;
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private FontAwesome.Sharp.IconButton iconButton;
     }
 }
 

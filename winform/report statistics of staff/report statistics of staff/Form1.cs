@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FontAwesome.Sharp;
 
 namespace report_statistics_of_staff
 {
@@ -103,5 +104,7 @@ namespace report_statistics_of_staff
             childForm.BringToFront();
             childForm.Show();
         }
+
+        
     }
 }
