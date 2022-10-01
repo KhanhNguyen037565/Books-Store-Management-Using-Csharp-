@@ -24,7 +24,7 @@ namespace report_statistics_of_staff
         }
         private void hideSubMenu()
         {
-            if(btnReportStatistics.Visible = true)
+            if(btnReportStatistics.Visible == true)
             {
                 btnReportStatistics.Visible = false;
             }

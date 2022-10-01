@@ -22,9 +22,27 @@ namespace report_statistics_of_staff
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
-           this.Close();
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            
+            this.Close();
+            
         }
     }
 }

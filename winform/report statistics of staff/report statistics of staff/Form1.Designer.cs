@@ -42,11 +42,11 @@ namespace report_statistics_of_staff
             this.btnBill = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.iconButton = new FontAwesome.Sharp.IconButton();
             this.panelPlayer = new System.Windows.Forms.Panel();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.iconButton = new FontAwesome.Sharp.IconButton();
             this.panelSideMenu.SuspendLayout();
             this.btnReportStatistics.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -91,6 +91,7 @@ namespace report_statistics_of_staff
             this.btnStatisticsManager.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkOliveGreen;
             this.btnStatisticsManager.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OliveDrab;
             this.btnStatisticsManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStatisticsManager.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnStatisticsManager.Location = new System.Drawing.Point(0, 40);
             this.btnStatisticsManager.Name = "btnStatisticsManager";
             this.btnStatisticsManager.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -108,6 +109,7 @@ namespace report_statistics_of_staff
             this.btnStatisticsStaff.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkOliveGreen;
             this.btnStatisticsStaff.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OliveDrab;
             this.btnStatisticsStaff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStatisticsStaff.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnStatisticsStaff.Location = new System.Drawing.Point(0, 0);
             this.btnStatisticsStaff.Name = "btnStatisticsStaff";
             this.btnStatisticsStaff.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -235,6 +237,24 @@ namespace report_statistics_of_staff
             this.panelLogo.Size = new System.Drawing.Size(250, 100);
             this.panelLogo.TabIndex = 0;
             // 
+            // iconButton
+            // 
+            this.iconButton.FlatAppearance.BorderSize = 0;
+            this.iconButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton.IconChar = FontAwesome.Sharp.IconChar.Stopwatch;
+            this.iconButton.IconColor = System.Drawing.Color.White;
+            this.iconButton.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton.Location = new System.Drawing.Point(12, 23);
+            this.iconButton.Name = "iconButton";
+            this.iconButton.Size = new System.Drawing.Size(209, 61);
+            this.iconButton.TabIndex = 1;
+            this.iconButton.Text = "WatchStore";
+            this.iconButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton.UseVisualStyleBackColor = true;
+            // 
             // panelPlayer
             // 
             this.panelPlayer.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -269,25 +289,6 @@ namespace report_statistics_of_staff
             // 
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
-            // 
-            // iconButton
-            // 
-            this.iconButton.FlatAppearance.BorderSize = 0;
-            this.iconButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton.IconChar = FontAwesome.Sharp.IconChar.Stopwatch;
-            this.iconButton.IconColor = System.Drawing.Color.White;
-            this.iconButton.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton.Location = new System.Drawing.Point(12, 23);
-            this.iconButton.Name = "iconButton";
-            this.iconButton.Size = new System.Drawing.Size(209, 61);
-            this.iconButton.TabIndex = 1;
-            this.iconButton.Text = "WatchStore";
-            this.iconButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton.UseVisualStyleBackColor = true;
-            
             // 
             // Form1
             // 
