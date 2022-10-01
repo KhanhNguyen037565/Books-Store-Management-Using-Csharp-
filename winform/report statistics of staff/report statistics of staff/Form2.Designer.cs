@@ -141,7 +141,7 @@ namespace report_statistics_of_staff
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -169,7 +169,7 @@ namespace report_statistics_of_staff
             this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel6.BackColor = System.Drawing.Color.Silver;
             this.panel6.Controls.Add(this.label8);
             this.panel6.Controls.Add(this.label4);
             this.panel6.Location = new System.Drawing.Point(495, 0);
@@ -257,7 +257,7 @@ namespace report_statistics_of_staff
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(97, 29);
             this.label6.TabIndex = 2;
-            this.label6.Text = "12000$";
+            this.label6.Text = "16000$";
             // 
             // label7
             // 
@@ -269,7 +269,7 @@ namespace report_statistics_of_staff
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 29);
             this.label7.TabIndex = 2;
-            this.label7.Text = "12000$";
+            this.label7.Text = "11000$";
             // 
             // label8
             // 
@@ -281,7 +281,7 @@ namespace report_statistics_of_staff
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 29);
             this.label8.TabIndex = 2;
-            this.label8.Text = "12000$";
+            this.label8.Text = "15000$";
             // 
             // Form2
             // 
