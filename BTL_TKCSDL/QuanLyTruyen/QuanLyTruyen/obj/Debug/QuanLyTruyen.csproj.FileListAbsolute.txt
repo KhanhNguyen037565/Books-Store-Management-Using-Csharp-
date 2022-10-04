@@ -1,0 +1,11 @@
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\bin\Debug\QuanLyTruyen.exe.config
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\bin\Debug\QuanLyTruyen.exe
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\bin\Debug\QuanLyTruyen.pdb
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.csproj.AssemblyReference.cache
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.Form1.resources
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.Properties.Resources.resources
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.csproj.GenerateResource.cache
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.csproj.CoreCompileInputs.cache
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.exe
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.pdb
+D:\Pratices_Csharp\BTL_TKCSDL\QuanLyTruyen\QuanLyTruyen\obj\Debug\QuanLyTruyen.FormPhieuMuon.resources
