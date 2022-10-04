@@ -117,6 +117,26 @@ namespace APPQUANLYTRUYEN
             
         }
 
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+            if(WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+                this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

@@ -48,8 +48,11 @@ namespace APPQUANLYTRUYEN
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelTieuDe = new System.Windows.Forms.Panel();
             this.lblTieuDe = new System.Windows.Forms.Label();
-            this.panelConHienThi = new System.Windows.Forms.Panel();
+            this.panelDestop = new System.Windows.Forms.Panel();
             this.lblLoGo = new System.Windows.Forms.Label();
+            this.btnX = new System.Windows.Forms.Button();
+            this.btnMax = new System.Windows.Forms.Button();
+            this.btnMin = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.panelThongKe.SuspendLayout();
             this.panelDanhSachMuon.SuspendLayout();
@@ -338,6 +341,9 @@ namespace APPQUANLYTRUYEN
             // panelTieuDe
             // 
             this.panelTieuDe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.panelTieuDe.Controls.Add(this.btnMin);
+            this.panelTieuDe.Controls.Add(this.btnMax);
+            this.panelTieuDe.Controls.Add(this.btnX);
             this.panelTieuDe.Controls.Add(this.lblTieuDe);
             this.panelTieuDe.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTieuDe.Location = new System.Drawing.Point(255, 0);
@@ -357,13 +363,13 @@ namespace APPQUANLYTRUYEN
             this.lblTieuDe.TabIndex = 0;
             this.lblTieuDe.Text = "TRANG CHỦ";
             // 
-            // panelConHienThi
+            // panelDestop
             // 
-            this.panelConHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelConHienThi.Location = new System.Drawing.Point(255, 125);
-            this.panelConHienThi.Name = "panelConHienThi";
-            this.panelConHienThi.Size = new System.Drawing.Size(887, 542);
-            this.panelConHienThi.TabIndex = 2;
+            this.panelDestop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDestop.Location = new System.Drawing.Point(255, 125);
+            this.panelDestop.Name = "panelDestop";
+            this.panelDestop.Size = new System.Drawing.Size(887, 542);
+            this.panelDestop.TabIndex = 2;
             // 
             // lblLoGo
             // 
@@ -377,12 +383,57 @@ namespace APPQUANLYTRUYEN
             this.lblLoGo.TabIndex = 1;
             this.lblLoGo.Text = "RJCODETRUYEN";
             // 
+            // btnX
+            // 
+            this.btnX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnX.FlatAppearance.BorderSize = 0;
+            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnX.ForeColor = System.Drawing.Color.White;
+            this.btnX.Location = new System.Drawing.Point(854, 3);
+            this.btnX.Name = "btnX";
+            this.btnX.Size = new System.Drawing.Size(30, 30);
+            this.btnX.TabIndex = 1;
+            this.btnX.Text = "X";
+            this.btnX.UseVisualStyleBackColor = true;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
+            // 
+            // btnMax
+            // 
+            this.btnMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMax.FlatAppearance.BorderSize = 0;
+            this.btnMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnMax.ForeColor = System.Drawing.Color.White;
+            this.btnMax.Location = new System.Drawing.Point(818, 3);
+            this.btnMax.Name = "btnMax";
+            this.btnMax.Size = new System.Drawing.Size(30, 30);
+            this.btnMax.TabIndex = 2;
+            this.btnMax.Text = "X";
+            this.btnMax.UseVisualStyleBackColor = true;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
+            // 
+            // btnMin
+            // 
+            this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMin.FlatAppearance.BorderSize = 0;
+            this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnMin.ForeColor = System.Drawing.Color.White;
+            this.btnMin.Location = new System.Drawing.Point(782, 3);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(30, 30);
+            this.btnMin.TabIndex = 3;
+            this.btnMin.Text = "X";
+            this.btnMin.UseVisualStyleBackColor = true;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1142, 667);
-            this.Controls.Add(this.panelConHienThi);
+            this.Controls.Add(this.panelDestop);
             this.Controls.Add(this.panelTieuDe);
             this.Controls.Add(this.panelSideMenu);
             this.MinimumSize = new System.Drawing.Size(1160, 714);
@@ -419,8 +470,11 @@ namespace APPQUANLYTRUYEN
         private System.Windows.Forms.Button btnThongKe;
         private System.Windows.Forms.Panel panelTieuDe;
         private System.Windows.Forms.Label lblTieuDe;
-        private System.Windows.Forms.Panel panelConHienThi;
+        private System.Windows.Forms.Panel panelDestop;
         private System.Windows.Forms.Label lblLoGo;
+        private System.Windows.Forms.Button btnMin;
+        private System.Windows.Forms.Button btnMax;
+        private System.Windows.Forms.Button btnX;
     }
 }
 
