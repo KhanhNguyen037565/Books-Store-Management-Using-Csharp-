@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace APPQUANLYTRUYEN
 {
-
+    
     public partial class Home : Form
     {
         private Button buttonHienHanh;
@@ -20,32 +20,28 @@ namespace APPQUANLYTRUYEN
         public Home()
         {
             InitializeComponent();
-            tuyChinhHienThi();
+            anMenuCon();
             random = new Random();
         }
-        private void tuyChinhHienThi()
+        // ẩn các menu con
+        private void anMenuCon()
         {
             panelThongKe.Visible = false;
         }
-        private void anMenuCon()
+        // hiển thị menu con
+        private void hienThiMenuCon(Panel panel)
         {
-            if (panelThongKe.Visible == true)
-            {
-                panelThongKe.Visible = false;
-            }
-        }
-        private void hienThiMenuCon(Panel panelThongKe)
-        {
-            if (panelThongKe.Visible == false)
+            if(panel.Visible == false)
             {
                 anMenuCon();
-                panelThongKe.Visible = true;
+                panel.Visible = true;
             }
             else
             {
-                panelThongKe.Visible = false;
+                panel.Visible = false;
             }
         }
+        
         //phuong thuc
         // chon random màu từ danh sách màu theme
         private Color chonMauTuTheme()
@@ -123,12 +119,12 @@ namespace APPQUANLYTRUYEN
 
         private void btnNhungTruyenChuaCoDocGiaMuon_Click_1(object sender, EventArgs e)
         {
-            anMenuCon();
+            
         }
 
         private void btnTop5TruyenDuocMuonNhieuNhat_Click_1(object sender, EventArgs e)
         {
-            anMenuCon();
+            
         }
         
 
@@ -136,12 +132,14 @@ namespace APPQUANLYTRUYEN
         {
             buttonHoatDong(sender);
             hienThiMenuCon(panelThongKe);
+            
         }
 
         private void btnPhieuMuon_Click(object sender, EventArgs e)
         {
             buttonHoatDong(sender);
             anMenuCon();
+            
         }
 
         private void btnNhanVien_Click(object sender, EventArgs e)
@@ -175,14 +173,12 @@ namespace APPQUANLYTRUYEN
 
         }
 
-
-        private void btnNhungTruyenChuaCoDocGiaMuon_Click(object sender, EventArgs e)
+        private void btnBaoCaoSoLuongDaMuon_Click(object sender, EventArgs e)
         {
-
             anMenuCon();
         }
 
-        private void btnBaoCaoSoLuongDaMuon_Click(object sender, EventArgs e)
+        private void btnNhungTruyenChuaCoDocGiaMuon_Click(object sender, EventArgs e)
         {
             anMenuCon();
         }
