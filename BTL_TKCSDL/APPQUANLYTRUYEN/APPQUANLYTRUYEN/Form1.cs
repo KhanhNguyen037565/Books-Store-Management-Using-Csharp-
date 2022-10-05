@@ -11,19 +11,41 @@ using System.Windows.Forms;
 namespace APPQUANLYTRUYEN
 {
 
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
         private Button buttonHienHanh;
         private Random random;
         private int chiSoTamThoi;
         //constructors
-        public Form1()
+        public Home()
         {
             InitializeComponent();
-           
+            tuyChinhHienThi();
             random = new Random();
         }
-        
+        private void tuyChinhHienThi()
+        {
+            panelThongKe.Visible = false;
+        }
+        private void anMenuCon()
+        {
+            if (panelThongKe.Visible == true)
+            {
+                panelThongKe.Visible = false;
+            }
+        }
+        private void hienThiMenuCon(Panel panelThongKe)
+        {
+            if (panelThongKe.Visible == false)
+            {
+                anMenuCon();
+                panelThongKe.Visible = true;
+            }
+            else
+            {
+                panelThongKe.Visible = false;
+            }
+        }
         //phuong thuc
         // chon random màu từ danh sách màu theme
         private Color chonMauTuTheme()
@@ -75,48 +97,6 @@ namespace APPQUANLYTRUYEN
             }
         }
 
-        private void btnPhieuMuon_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-          
-        }
-
-        private void btnNhanVien_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-            
-        }
-
-        private void btnTruyen_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-            
-        }
-
-        private void btnTacGia_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-            
-        }
-
-        private void btnDocGia_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-           
-        }
-
-        private void btnDanhSachMuon_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-            
-        }
-
-        private void btnThongKe_Click(object sender, EventArgs e)
-        {
-            buttonHoatDong(sender);
-            
-        }
-
         private void btnX_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -132,11 +112,84 @@ namespace APPQUANLYTRUYEN
             {
                 this.WindowState = FormWindowState.Normal;
             }
+           
         }
 
         private void btnMin_Click(object sender, EventArgs e)
         {
                 this.WindowState = FormWindowState.Minimized;
+        }
+
+
+        private void btnNhungTruyenChuaCoDocGiaMuon_Click_1(object sender, EventArgs e)
+        {
+            anMenuCon();
+        }
+
+        private void btnTop5TruyenDuocMuonNhieuNhat_Click_1(object sender, EventArgs e)
+        {
+            anMenuCon();
+        }
+        
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            hienThiMenuCon(panelThongKe);
+        }
+
+        private void btnPhieuMuon_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            anMenuCon();
+        }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            anMenuCon();
+        }
+
+        private void btnTruyen_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            anMenuCon();
+        }
+
+        private void btnTacGia_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            anMenuCon();
+        }
+
+        private void btnDocGia_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            anMenuCon();
+        }
+
+        private void btnDanhSachMuon_Click(object sender, EventArgs e)
+        {
+            buttonHoatDong(sender);
+            anMenuCon();
+
+        }
+
+
+        private void btnNhungTruyenChuaCoDocGiaMuon_Click(object sender, EventArgs e)
+        {
+
+            anMenuCon();
+        }
+
+        private void btnBaoCaoSoLuongDaMuon_Click(object sender, EventArgs e)
+        {
+            anMenuCon();
+        }
+
+        private void btnTop5TruyenDuocMuonNhieuNhat_Click(object sender, EventArgs e)
+        {
+            anMenuCon();
         }
     }
 }

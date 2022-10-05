@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace APPQUANLYTRUYEN
 {
-    public partial class QUAHAN : Form
+    public partial class Form2 : Form
     {
-        public QUAHAN()
+        public Form2()
         {
             InitializeComponent();
         }

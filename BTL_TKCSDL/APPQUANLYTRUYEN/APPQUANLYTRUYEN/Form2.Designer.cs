@@ -1,7 +1,7 @@
 ﻿
 namespace APPQUANLYTRUYEN
 {
-    partial class TOP5TRUYENDUOCMUONNHIEUNHAT
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,16 @@ namespace APPQUANLYTRUYEN
         {
             this.SuspendLayout();
             // 
-            // TOP5TRUYENDUOCMUONNHIEUNHAT
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 503);
-            this.Name = "TOP5TRUYENDUOCMUONNHIEUNHAT";
-            this.Text = "TOP5TRUYENDUOCMUONNHIEUNHAT";
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(905, 589);
+            this.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.ResumeLayout(false);
 
         }
