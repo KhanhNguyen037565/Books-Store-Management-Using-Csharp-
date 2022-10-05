@@ -11,13 +11,13 @@ using System.Windows.Forms;
 namespace APPQUANLYTRUYEN
 {
     
-    public partial class Home : Form
+    public partial class HOME : Form
     {
         private Button buttonHienHanh;
         private Random random;
         private int chiSoTamThoi;
         //constructors
-        public Home()
+        public HOME()
         {
             InitializeComponent();
             anMenuCon();
@@ -130,6 +130,7 @@ namespace APPQUANLYTRUYEN
 
         private void btnThongKe_Click(object sender, EventArgs e)
         {
+            moFormCon(new THONGKE());
             buttonHoatDong(sender);
             hienThiMenuCon(panelThongKe);
             
@@ -137,7 +138,7 @@ namespace APPQUANLYTRUYEN
 
         private void btnPhieuMuon_Click(object sender, EventArgs e)
         {
-            moFormCon(new Form2());
+            moFormCon(new PHIEUMUON());
             buttonHoatDong(sender);
             anMenuCon();
             
@@ -145,32 +146,35 @@ namespace APPQUANLYTRUYEN
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
-            moFormCon(new Form3());
+            moFormCon(new NHANVIEN());
             buttonHoatDong(sender);
             anMenuCon();
         }
 
         private void btnTruyen_Click(object sender, EventArgs e)
         {
-            moFormCon(new Form4());
+            moFormCon(new TRUYEN());
             buttonHoatDong(sender);
             anMenuCon();
         }
 
         private void btnTacGia_Click(object sender, EventArgs e)
         {
+            moFormCon(new TACGIA());
             buttonHoatDong(sender);
             anMenuCon();
         }
 
         private void btnDocGia_Click(object sender, EventArgs e)
         {
+            moFormCon(new DOCGIA());
             buttonHoatDong(sender);
             anMenuCon();
         }
 
         private void btnDanhSachMuon_Click(object sender, EventArgs e)
         {
+            moFormCon(new DANHSACHMUON());
             buttonHoatDong(sender);
             anMenuCon();
 
@@ -178,16 +182,19 @@ namespace APPQUANLYTRUYEN
 
         private void btnBaoCaoSoLuongDaMuon_Click(object sender, EventArgs e)
         {
+            moFormCon(new BAOCAOSOLUONGDAMUON());
             anMenuCon();
         }
 
         private void btnNhungTruyenChuaCoDocGiaMuon_Click(object sender, EventArgs e)
         {
+            moFormCon(new NHUNGTRUYENCHUCODOCGIAMUON());
             anMenuCon();
         }
 
         private void btnTop5TruyenDuocMuonNhieuNhat_Click(object sender, EventArgs e)
         {
+            moFormCon(new TOP5TRUYENDUOCMUONNHIEUNHAT());
             anMenuCon();
         }
         private Form formHienThi = null;
@@ -205,6 +212,18 @@ namespace APPQUANLYTRUYEN
             panelDestop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        
+
+        private void HOME_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            moFormCon(new TRANGCHU());
         }
     }
 }

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace APPQUANLYTRUYEN
 {
-    public partial class Form3 : Form
+    public partial class THONGKE : Form
     {
-        public Form3()
+        public THONGKE()
         {
             InitializeComponent();
+        }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

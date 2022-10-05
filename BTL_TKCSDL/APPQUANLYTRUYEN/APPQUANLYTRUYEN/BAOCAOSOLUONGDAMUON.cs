@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace APPQUANLYTRUYEN
 {
-    public partial class Form4 : Form
+    public partial class BAOCAOSOLUONGDAMUON : Form
     {
-        public Form4()
+        public BAOCAOSOLUONGDAMUON()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnX_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

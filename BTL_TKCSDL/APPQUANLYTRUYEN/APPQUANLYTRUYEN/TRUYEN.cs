@@ -10,13 +10,21 @@ using System.Windows.Forms;
 
 namespace APPQUANLYTRUYEN
 {
-    public partial class Form2 : Form
+    public partial class TRUYEN : Form
     {
-        public Form2()
+        public TRUYEN()
         {
             InitializeComponent();
         }
 
-        
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

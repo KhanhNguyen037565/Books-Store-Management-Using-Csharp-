@@ -1,7 +1,7 @@
 ﻿
 namespace APPQUANLYTRUYEN
 {
-    partial class Home
+    partial class HOME
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace APPQUANLYTRUYEN
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HOME));
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.panelThongKe = new System.Windows.Forms.Panel();
             this.btnTop5TruyenDuocMuonNhieuNhat = new System.Windows.Forms.Button();
@@ -43,6 +43,7 @@ namespace APPQUANLYTRUYEN
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.btnPhieuMuon = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblLoGo = new System.Windows.Forms.Label();
             this.panelTieuDe = new System.Windows.Forms.Panel();
             this.btnMin = new System.Windows.Forms.Button();
@@ -50,10 +51,14 @@ namespace APPQUANLYTRUYEN
             this.btnX = new System.Windows.Forms.Button();
             this.lblTieuDe = new System.Windows.Forms.Label();
             this.panelDestop = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.panelThongKe.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTieuDe.SuspendLayout();
+            this.panelDestop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -280,6 +285,7 @@ namespace APPQUANLYTRUYEN
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Controls.Add(this.lblLoGo);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
@@ -288,17 +294,31 @@ namespace APPQUANLYTRUYEN
             this.panelLogo.Size = new System.Drawing.Size(234, 125);
             this.panelLogo.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(92, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // lblLoGo
             // 
             this.lblLoGo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblLoGo.AutoSize = true;
             this.lblLoGo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblLoGo.ForeColor = System.Drawing.Color.White;
-            this.lblLoGo.Location = new System.Drawing.Point(31, 53);
+            this.lblLoGo.Location = new System.Drawing.Point(32, 77);
             this.lblLoGo.Name = "lblLoGo";
-            this.lblLoGo.Size = new System.Drawing.Size(174, 25);
+            this.lblLoGo.Size = new System.Drawing.Size(164, 25);
             this.lblLoGo.TabIndex = 1;
-            this.lblLoGo.Text = "RJCODETRUYEN";
+            this.lblLoGo.Text = "RJCODEKHANH";
             // 
             // panelTieuDe
             // 
@@ -364,21 +384,33 @@ namespace APPQUANLYTRUYEN
             this.lblTieuDe.AutoSize = true;
             this.lblTieuDe.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTieuDe.ForeColor = System.Drawing.Color.White;
-            this.lblTieuDe.Location = new System.Drawing.Point(382, 53);
+            this.lblTieuDe.Location = new System.Drawing.Point(336, 47);
             this.lblTieuDe.Name = "lblTieuDe";
-            this.lblTieuDe.Size = new System.Drawing.Size(169, 33);
+            this.lblTieuDe.Size = new System.Drawing.Size(240, 33);
             this.lblTieuDe.TabIndex = 0;
-            this.lblTieuDe.Text = "TRANG CHỦ";
+            this.lblTieuDe.Text = "QUẢN LÝ TRUYỆN";
             // 
             // panelDestop
             // 
+            this.panelDestop.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panelDestop.Controls.Add(this.pictureBox2);
             this.panelDestop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDestop.Location = new System.Drawing.Point(255, 125);
             this.panelDestop.Name = "panelDestop";
             this.panelDestop.Size = new System.Drawing.Size(905, 589);
             this.panelDestop.TabIndex = 2;
             // 
-            // Home
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(317, 129);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(293, 240);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // HOME
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -387,14 +419,18 @@ namespace APPQUANLYTRUYEN
             this.Controls.Add(this.panelTieuDe);
             this.Controls.Add(this.panelSideMenu);
             this.MinimumSize = new System.Drawing.Size(1160, 714);
-            this.Name = "Home";
+            this.Name = "HOME";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.HOME_Load);
             this.panelSideMenu.ResumeLayout(false);
             this.panelThongKe.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTieuDe.ResumeLayout(false);
             this.panelTieuDe.PerformLayout();
+            this.panelDestop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -421,6 +457,8 @@ namespace APPQUANLYTRUYEN
         private System.Windows.Forms.Button btnTruyen;
         private System.Windows.Forms.Button btnNhanVien;
         private System.Windows.Forms.Button btnPhieuMuon;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
