@@ -137,6 +137,7 @@ namespace APPQUANLYTRUYEN
 
         private void btnPhieuMuon_Click(object sender, EventArgs e)
         {
+            moFormCon(new Form2());
             buttonHoatDong(sender);
             anMenuCon();
             
@@ -144,12 +145,14 @@ namespace APPQUANLYTRUYEN
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
+            moFormCon(new Form3());
             buttonHoatDong(sender);
             anMenuCon();
         }
 
         private void btnTruyen_Click(object sender, EventArgs e)
         {
+            moFormCon(new Form4());
             buttonHoatDong(sender);
             anMenuCon();
         }
@@ -186,6 +189,22 @@ namespace APPQUANLYTRUYEN
         private void btnTop5TruyenDuocMuonNhieuNhat_Click(object sender, EventArgs e)
         {
             anMenuCon();
+        }
+        private Form formHienThi = null;
+        private void moFormCon(Form childForm)
+        {
+            if(formHienThi != null)
+            {
+                childForm.BringToFront();
+            }
+            formHienThi = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelDestop.Controls.Add(childForm);
+            panelDestop.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
     }
 }
