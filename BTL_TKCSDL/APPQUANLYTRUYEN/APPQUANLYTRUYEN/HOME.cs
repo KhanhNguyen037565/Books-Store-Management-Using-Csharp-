@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace APPQUANLYTRUYEN
 {
@@ -133,7 +134,9 @@ namespace APPQUANLYTRUYEN
             moFormCon(new THONGKE());
             buttonHoatDong(sender);
             hienThiMenuCon(panelThongKe);
-            
+            lblTieuDe.Text = "THỐNG KÊ";
+            lblTieuDe.Location = new Point(280, 42);
+
         }
 
         private void btnPhieuMuon_Click(object sender, EventArgs e)
@@ -141,7 +144,12 @@ namespace APPQUANLYTRUYEN
             moFormCon(new PHIEUMUON());
             buttonHoatDong(sender);
             anMenuCon();
-            
+            lblTieuDe.Text = "PHIẾU MƯỢN";
+           // lblTieuDe.Size = new Size(184,33) ;
+            lblTieuDe.AutoSize = true;
+            lblTieuDe.TextAlign = ContentAlignment.MiddleCenter;
+            lblTieuDe.Location = new Point(280, 42);
+
         }
 
         private void btnNhanVien_Click(object sender, EventArgs e)
@@ -149,6 +157,8 @@ namespace APPQUANLYTRUYEN
             moFormCon(new NHANVIEN());
             buttonHoatDong(sender);
             anMenuCon();
+            lblTieuDe.Text = "NHÂN VIÊN";
+            lblTieuDe.Location = new Point(275, 42);
         }
 
         private void btnTruyen_Click(object sender, EventArgs e)
@@ -156,6 +166,8 @@ namespace APPQUANLYTRUYEN
             moFormCon(new TRUYEN());
             buttonHoatDong(sender);
             anMenuCon();
+            lblTieuDe.Text = "TRUYỆN";
+            lblTieuDe.Location = new Point(300, 42);
         }
 
         private void btnTacGia_Click(object sender, EventArgs e)
@@ -163,6 +175,8 @@ namespace APPQUANLYTRUYEN
             moFormCon(new TACGIA());
             buttonHoatDong(sender);
             anMenuCon();
+            lblTieuDe.Text = "TÁC GIẢ";
+            lblTieuDe.Location = new Point(300, 42);
         }
 
         private void btnDocGia_Click(object sender, EventArgs e)
@@ -170,6 +184,8 @@ namespace APPQUANLYTRUYEN
             moFormCon(new DOCGIA());
             buttonHoatDong(sender);
             anMenuCon();
+            lblTieuDe.Text = "ĐỘC GIẢ";
+            lblTieuDe.Location = new Point(300, 42);
         }
 
         private void btnDanhSachMuon_Click(object sender, EventArgs e)
@@ -177,6 +193,9 @@ namespace APPQUANLYTRUYEN
             moFormCon(new DANHSACHMUON());
             buttonHoatDong(sender);
             anMenuCon();
+            lblTieuDe.Text = "DANH SÁCH MƯỢN";
+            lblTieuDe.Size = new Size(240, 33);
+            lblTieuDe.Location = new Point(235,40);
 
         }
 
@@ -184,18 +203,24 @@ namespace APPQUANLYTRUYEN
         {
             moFormCon(new BAOCAOSOLUONGDAMUON());
             anMenuCon();
+            lblTieuDe.Text = "BÁO CÁO SỐ LƯỢNG ĐÃ MƯỢN";
+            lblTieuDe.Location = new Point(175, 42);
         }
 
         private void btnNhungTruyenChuaCoDocGiaMuon_Click(object sender, EventArgs e)
         {
             moFormCon(new NHUNGTRUYENCHUCODOCGIAMUON());
             anMenuCon();
+            lblTieuDe.Text = "NHỮNG TRUYỆN CHƯA CÓ ĐỘC GIẢ MƯỢN";
+            lblTieuDe.Location = new Point(125, 42);
         }
 
         private void btnTop5TruyenDuocMuonNhieuNhat_Click(object sender, EventArgs e)
         {
             moFormCon(new TOP5TRUYENDUOCMUONNHIEUNHAT());
             anMenuCon();
+            lblTieuDe.Text = "TOP 5 TRUYỆN ĐƯỢC MƯỢN NHIỀU NHẤT";
+            lblTieuDe.Location = new Point(125, 42);
         }
         private Form formHienThi = null;
         private void moFormCon(Form childForm)
@@ -214,16 +239,14 @@ namespace APPQUANLYTRUYEN
             childForm.Show();
         }
 
-        
-
-        private void HOME_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             moFormCon(new TRANGCHU());
+            lblTieuDe.Text = "QUẢN LÝ TRUYỆN";
+            lblTieuDe.Location = new Point(268, 41);
+            anMenuCon();
         }
+
     }
 }

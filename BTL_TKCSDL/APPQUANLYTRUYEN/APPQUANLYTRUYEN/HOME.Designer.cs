@@ -338,13 +338,13 @@ namespace APPQUANLYTRUYEN
             this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMin.FlatAppearance.BorderSize = 0;
             this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnMin.ForeColor = System.Drawing.Color.White;
-            this.btnMin.Location = new System.Drawing.Point(800, 3);
+            this.btnMin.Location = new System.Drawing.Point(805, -9);
             this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(30, 30);
+            this.btnMin.Size = new System.Drawing.Size(30, 50);
             this.btnMin.TabIndex = 3;
-            this.btnMin.Text = "X";
+            this.btnMin.Text = "-";
             this.btnMin.UseVisualStyleBackColor = true;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
@@ -355,11 +355,11 @@ namespace APPQUANLYTRUYEN
             this.btnMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnMax.ForeColor = System.Drawing.Color.White;
-            this.btnMax.Location = new System.Drawing.Point(836, 3);
+            this.btnMax.Location = new System.Drawing.Point(834, 2);
             this.btnMax.Name = "btnMax";
-            this.btnMax.Size = new System.Drawing.Size(30, 30);
+            this.btnMax.Size = new System.Drawing.Size(35, 35);
             this.btnMax.TabIndex = 2;
-            this.btnMax.Text = "X";
+            this.btnMax.Text = "O";
             this.btnMax.UseVisualStyleBackColor = true;
             this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
@@ -370,9 +370,9 @@ namespace APPQUANLYTRUYEN
             this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnX.ForeColor = System.Drawing.Color.White;
-            this.btnX.Location = new System.Drawing.Point(872, 3);
+            this.btnX.Location = new System.Drawing.Point(867, 2);
             this.btnX.Name = "btnX";
-            this.btnX.Size = new System.Drawing.Size(30, 30);
+            this.btnX.Size = new System.Drawing.Size(35, 35);
             this.btnX.TabIndex = 1;
             this.btnX.Text = "X";
             this.btnX.UseVisualStyleBackColor = true;
@@ -384,14 +384,16 @@ namespace APPQUANLYTRUYEN
             this.lblTieuDe.AutoSize = true;
             this.lblTieuDe.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTieuDe.ForeColor = System.Drawing.Color.White;
-            this.lblTieuDe.Location = new System.Drawing.Point(336, 47);
+            this.lblTieuDe.Location = new System.Drawing.Point(338, 41);
             this.lblTieuDe.Name = "lblTieuDe";
             this.lblTieuDe.Size = new System.Drawing.Size(240, 33);
             this.lblTieuDe.TabIndex = 0;
             this.lblTieuDe.Text = "QUẢN LÝ TRUYỆN";
+           
             // 
             // panelDestop
             // 
+            this.panelDestop.AutoSize = true;
             this.panelDestop.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panelDestop.Controls.Add(this.pictureBox2);
             this.panelDestop.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -418,10 +420,11 @@ namespace APPQUANLYTRUYEN
             this.Controls.Add(this.panelDestop);
             this.Controls.Add(this.panelTieuDe);
             this.Controls.Add(this.panelSideMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(1160, 714);
             this.Name = "HOME";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
-            this.Load += new System.EventHandler(this.HOME_Load);
             this.panelSideMenu.ResumeLayout(false);
             this.panelThongKe.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
@@ -432,6 +435,7 @@ namespace APPQUANLYTRUYEN
             this.panelDestop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
