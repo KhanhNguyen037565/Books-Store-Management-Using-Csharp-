@@ -1,6 +1,0 @@
-D:\Pratices_Csharp\demo\sosanhchuoi\sosanhchuoi\bin\Debug\sosanhchuoi.exe.config
-D:\Pratices_Csharp\demo\sosanhchuoi\sosanhchuoi\bin\Debug\sosanhchuoi.exe
-D:\Pratices_Csharp\demo\sosanhchuoi\sosanhchuoi\bin\Debug\sosanhchuoi.pdb
-D:\Pratices_Csharp\demo\sosanhchuoi\sosanhchuoi\obj\Debug\sosanhchuoi.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\sosanhchuoi\sosanhchuoi\obj\Debug\sosanhchuoi.exe
-D:\Pratices_Csharp\demo\sosanhchuoi\sosanhchuoi\obj\Debug\sosanhchuoi.pdb

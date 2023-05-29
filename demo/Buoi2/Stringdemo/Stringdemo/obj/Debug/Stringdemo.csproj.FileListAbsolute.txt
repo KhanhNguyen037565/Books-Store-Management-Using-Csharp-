@@ -1,6 +1,0 @@
-D:\Pratices_Csharp\demo\Stringdemo\Stringdemo\bin\Debug\Stringdemo.exe.config
-D:\Pratices_Csharp\demo\Stringdemo\Stringdemo\bin\Debug\Stringdemo.exe
-D:\Pratices_Csharp\demo\Stringdemo\Stringdemo\bin\Debug\Stringdemo.pdb
-D:\Pratices_Csharp\demo\Stringdemo\Stringdemo\obj\Debug\Stringdemo.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Stringdemo\Stringdemo\obj\Debug\Stringdemo.exe
-D:\Pratices_Csharp\demo\Stringdemo\Stringdemo\obj\Debug\Stringdemo.pdb

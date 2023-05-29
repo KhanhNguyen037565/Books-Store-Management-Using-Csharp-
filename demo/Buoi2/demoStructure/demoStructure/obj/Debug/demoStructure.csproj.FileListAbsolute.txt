@@ -1,6 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi2\demoStructure\demoStructure\bin\Debug\demoStructure.exe.config
-D:\Pratices_Csharp\demo\Buoi2\demoStructure\demoStructure\bin\Debug\demoStructure.exe
-D:\Pratices_Csharp\demo\Buoi2\demoStructure\demoStructure\bin\Debug\demoStructure.pdb
-D:\Pratices_Csharp\demo\Buoi2\demoStructure\demoStructure\obj\Debug\demoStructure.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi2\demoStructure\demoStructure\obj\Debug\demoStructure.exe
-D:\Pratices_Csharp\demo\Buoi2\demoStructure\demoStructure\obj\Debug\demoStructure.pdb

@@ -1,6 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi2\CleanMemory\CleanMemory\bin\Debug\CleanMemory.exe.config
-D:\Pratices_Csharp\demo\Buoi2\CleanMemory\CleanMemory\bin\Debug\CleanMemory.exe
-D:\Pratices_Csharp\demo\Buoi2\CleanMemory\CleanMemory\bin\Debug\CleanMemory.pdb
-D:\Pratices_Csharp\demo\Buoi2\CleanMemory\CleanMemory\obj\Debug\CleanMemory.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi2\CleanMemory\CleanMemory\obj\Debug\CleanMemory.exe
-D:\Pratices_Csharp\demo\Buoi2\CleanMemory\CleanMemory\obj\Debug\CleanMemory.pdb

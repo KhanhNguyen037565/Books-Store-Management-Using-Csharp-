@@ -1,7 +1,0 @@
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\bin\Debug\Arraydemo.exe.config
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\bin\Debug\Arraydemo.exe
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\bin\Debug\Arraydemo.pdb
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\obj\Debug\Arraydemo.csproj.AssemblyReference.cache
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\obj\Debug\Arraydemo.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\obj\Debug\Arraydemo.exe
-D:\Pratices_Csharp\demo\Arraydemo\Arraydemo\obj\Debug\Arraydemo.pdb

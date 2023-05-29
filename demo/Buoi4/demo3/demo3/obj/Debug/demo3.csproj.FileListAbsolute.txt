@@ -1,9 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\bin\Debug\demo3.exe.config
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\bin\Debug\demo3.exe
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\bin\Debug\demo3.pdb
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\obj\Debug\demo3.Form1.resources
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\obj\Debug\demo3.Properties.Resources.resources
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\obj\Debug\demo3.csproj.GenerateResource.cache
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\obj\Debug\demo3.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\obj\Debug\demo3.exe
-D:\Pratices_Csharp\demo\Buoi4\demo3\demo3\obj\Debug\demo3.pdb

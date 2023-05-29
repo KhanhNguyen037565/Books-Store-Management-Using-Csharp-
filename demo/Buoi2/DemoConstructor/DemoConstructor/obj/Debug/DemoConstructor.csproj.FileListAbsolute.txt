@@ -1,7 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\obj\Debug\DemoConstructor.csproj.AssemblyReference.cache
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\obj\Debug\DemoConstructor.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\bin\Debug\DemoConstructor.exe.config
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\bin\Debug\DemoConstructor.exe
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\bin\Debug\DemoConstructor.pdb
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\obj\Debug\DemoConstructor.exe
-D:\Pratices_Csharp\demo\Buoi2\DemoConstructor\DemoConstructor\obj\Debug\DemoConstructor.pdb

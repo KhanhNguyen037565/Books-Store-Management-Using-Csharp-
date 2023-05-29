@@ -1,6 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi2\DemoHuyConstructor\DemoHuyConstructor\bin\Debug\DemoHuyConstructor.exe.config
-D:\Pratices_Csharp\demo\Buoi2\DemoHuyConstructor\DemoHuyConstructor\bin\Debug\DemoHuyConstructor.exe
-D:\Pratices_Csharp\demo\Buoi2\DemoHuyConstructor\DemoHuyConstructor\bin\Debug\DemoHuyConstructor.pdb
-D:\Pratices_Csharp\demo\Buoi2\DemoHuyConstructor\DemoHuyConstructor\obj\Debug\DemoHuyConstructor.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi2\DemoHuyConstructor\DemoHuyConstructor\obj\Debug\DemoHuyConstructor.exe
-D:\Pratices_Csharp\demo\Buoi2\DemoHuyConstructor\DemoHuyConstructor\obj\Debug\DemoHuyConstructor.pdb

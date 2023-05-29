@@ -1,8 +1,0 @@
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\bin\Debug\demoBienvaHang.exe.config
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\bin\Debug\demoBienvaHang.exe
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\bin\Debug\demoBienvaHang.pdb
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\obj\Debug\demoBienvaHang.csproj.AssemblyReference.cache
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\obj\Debug\demoBienvaHang.csproj.SuggestedBindingRedirects.cache
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\obj\Debug\demoBienvaHang.csproj.CoreCompileInputs.cache
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\obj\Debug\demoBienvaHang.exe
-D:\LapTrinhTrucQuan\demoBienvaHang\demoBienvaHang\obj\Debug\demoBienvaHang.pdb

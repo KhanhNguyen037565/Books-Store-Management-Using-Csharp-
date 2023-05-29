@@ -1,6 +1,0 @@
-D:\Pratices_Csharp\demo\noiChuoi\noiChuoi\bin\Debug\noiChuoi.exe.config
-D:\Pratices_Csharp\demo\noiChuoi\noiChuoi\bin\Debug\noiChuoi.exe
-D:\Pratices_Csharp\demo\noiChuoi\noiChuoi\bin\Debug\noiChuoi.pdb
-D:\Pratices_Csharp\demo\noiChuoi\noiChuoi\obj\Debug\noiChuoi.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\noiChuoi\noiChuoi\obj\Debug\noiChuoi.exe
-D:\Pratices_Csharp\demo\noiChuoi\noiChuoi\obj\Debug\noiChuoi.pdb

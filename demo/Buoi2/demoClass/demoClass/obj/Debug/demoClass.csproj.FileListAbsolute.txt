@@ -1,7 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\bin\Debug\demoClass.exe.config
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\bin\Debug\demoClass.exe
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\bin\Debug\demoClass.pdb
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\obj\Debug\demoClass.csproj.AssemblyReference.cache
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\obj\Debug\demoClass.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\obj\Debug\demoClass.exe
-D:\Pratices_Csharp\demo\Buoi2\demoClass\demoClass\obj\Debug\demoClass.pdb

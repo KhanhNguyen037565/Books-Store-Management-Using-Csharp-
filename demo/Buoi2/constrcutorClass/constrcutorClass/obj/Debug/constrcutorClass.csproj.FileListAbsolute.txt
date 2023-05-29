@@ -1,7 +1,0 @@
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\bin\Debug\constrcutorClass.exe.config
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\bin\Debug\constrcutorClass.exe
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\bin\Debug\constrcutorClass.pdb
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\obj\Debug\constrcutorClass.csproj.AssemblyReference.cache
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\obj\Debug\constrcutorClass.csproj.CoreCompileInputs.cache
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\obj\Debug\constrcutorClass.exe
-D:\Pratices_Csharp\demo\Buoi2\constrcutorClass\constrcutorClass\obj\Debug\constrcutorClass.pdb
