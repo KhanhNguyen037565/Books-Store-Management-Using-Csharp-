@@ -1,8 +1,0 @@
-D:\LapTrinhTrucQuan\Bai4\Bai4\bin\Debug\Bai4.exe.config
-D:\LapTrinhTrucQuan\Bai4\Bai4\bin\Debug\Bai4.exe
-D:\LapTrinhTrucQuan\Bai4\Bai4\bin\Debug\Bai4.pdb
-D:\LapTrinhTrucQuan\Bai4\Bai4\obj\Debug\Bai4.csproj.AssemblyReference.cache
-D:\LapTrinhTrucQuan\Bai4\Bai4\obj\Debug\Bai4.csproj.SuggestedBindingRedirects.cache
-D:\LapTrinhTrucQuan\Bai4\Bai4\obj\Debug\Bai4.csproj.CoreCompileInputs.cache
-D:\LapTrinhTrucQuan\Bai4\Bai4\obj\Debug\Bai4.exe
-D:\LapTrinhTrucQuan\Bai4\Bai4\obj\Debug\Bai4.pdb
